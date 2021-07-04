@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #b0c4de;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Start */
+
+header {
+    padding: 20px 35px;
+    background-color: #b0c4de;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #4682b4
+}
+
+header a {
+    text-decoration: none;
+    color: #4682b4;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+/* Header End */
+
+/* Hero Styles Start */
+section {
+    padding: 189px;
+}
+
+.hero {
+    background-image: url(../images/heroslim.jpg);
+    background-size: cover;
+    /* justify-content: center; */
+}
+
+.hero h2 {
+
+}
+
+/* Hero Styles End */
+
+/* Article Styles Start */
+/* Style All Article Tags */
+article {
+    display: flex;
+}
+
+/* Article About Styles Start */
+.about {
+    display: flex;
+}
+
+article h2 {
+display: flex;
+}
+
+article h2 p {
+    display: flex;
+}
+/* Article About Styles End */
+
+
+/* Article Work Styles Start */
+.work {
+    border: 1px solid red;
+    flex-wrap:wrap;
+}
+
+.project1 {
+    border: 1px solid fuchsia;
+    margin: 5px;
+}
+
+.project2 {
+    border: 1px solid fuchsia;
+    margin: 5px;
+}
+
+.project3 {
+    border: 1px solid fuchsia;
+    margin: 5px;
+}
+
+.project4 {
+    border: 1px solid fuchsia;
+    margin: 5px;
+}
+
+.project5 {
+    border: 1px solid fuchsia;
+    margin: 5px;
+}
+
+
+/* Article Work Styles End */
+
+
+/* Footer Styles Start */
+
+footer {
+    padding: 20px 35px;
+    background-color: #b0c4de;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-weight: bold;
+    margin: 0;
+    /* font-size: 36px; */
+    color: #4682b4
+}
+
+footer a {
+    text-decoration: none;
+    color: #4682b4;
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* Footer Styles End */
+
+@media screen and (max-width: 980p) {
+    
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}

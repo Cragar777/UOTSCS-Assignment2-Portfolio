@@ -48,25 +48,39 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-
 /* Header End */
 
 /* Hero Styles Start */
-section {
-    padding: 189px;
-}
 
 .hero {
     background-image: url(../images/heroslim.jpg);
     background-size: cover;
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
+
+.hero-img {
+    
+}
+
 
 .hero h2 {
 
 }
 
 /* Hero Styles End */
+
+/* Section Title Styles Start */
+.section-title {
+    font-size: 30px;
+    border-right: 3px solid #4682b4;
+    padding: 20px 15px 20px 0px;
+    margin: 10px;
+    text-align: right;
+    width: 200px;
+}
 
 /* Article Styles Start */
 /* Style All Article Tags */
@@ -76,11 +90,17 @@ article {
 
 /* Article About Styles Start */
 .about {
+    flex-wrap: wrap;
+}
+
+.about p {
     display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
 }
 
 article h2 {
-display: flex;
+/* display: flex; */
 }
 
 article h2 p {
@@ -91,38 +111,83 @@ article h2 p {
 
 /* Article Work Styles Start */
 .work {
-    border: 1px solid red;
     flex-wrap:wrap;
 }
 
 .project1 {
-    border: 1px solid fuchsia;
     margin: 5px;
+    background-image: url(../images/laptoptop.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
 }
 
 .project2 {
-    border: 1px solid fuchsia;
     margin: 5px;
+    background-image: url(../images/laptopside.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .project3 {
-    border: 1px solid fuchsia;
     margin: 5px;
+    background-image: url(../images/laptopside.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .project4 {
-    border: 1px solid fuchsia;
     margin: 5px;
+    background-image: url(../images/laptopside.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .project5 {
-    border: 1px solid fuchsia;
     margin: 5px;
+    background-image: url(../images/laptopside.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
+.resume {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.resume div {
+    background-image: url(../images/handshake.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.resume div a {
+    text-decoration: none;
+    color:#b0c4de;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
 
 /* Article Work Styles End */
-
 
 /* Footer Styles Start */
 
@@ -135,8 +200,9 @@ footer {
 }
 
 footer h2 {
+    /* padding: 0; */
     font-weight: bold;
-    margin: 0;
+    /* margin: 0; */
     /* font-size: 36px; */
     color: #4682b4
 }

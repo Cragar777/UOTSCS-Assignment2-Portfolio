@@ -90,21 +90,17 @@ article {
 
 /* Article About Styles Start */
 .about {
-    flex-wrap: wrap;
-}
-
-.about p {
     display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
+    /* flex-wrap: wrap; */
 }
 
-article h2 {
-/* display: flex; */
-}
-
-article h2 p {
+.about section {
+    margin: 5px;
+    /* background-size: cover; */
     display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
 }
 /* Article About Styles End */
 
@@ -116,7 +112,7 @@ article h2 p {
 
 .project1 {
     margin: 5px;
-    background-image: url(../images/laptoptop.webp);
+    background-image: url(../images/Envirodashboard.png);
     background-size: cover;
     display: flex;
     justify-content: center;

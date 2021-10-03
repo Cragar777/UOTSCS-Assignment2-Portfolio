@@ -51,7 +51,6 @@ header nav ul li a {
 /* Header End */
 
 /* Hero Styles Start */
-
 .hero {
     background-image: url(../images/heroslim.jpg);
     background-size: cover;
@@ -60,16 +59,6 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: flex-start;
 }
-
-.hero-img {
-    
-}
-
-
-.hero h2 {
-
-}
-
 /* Hero Styles End */
 
 /* Section Title Styles Start */
@@ -79,31 +68,19 @@ header nav ul li a {
     padding: 20px 15px 20px 0px;
     margin: 10px;
     text-align: right;
-    width: 200px;
+    min-width: 200px;
 }
 
 /* Article Styles Start */
 /* Style All Article Tags */
 article {
+    padding: 10px;
     display: flex;
 }
 
-/* Article About Styles Start */
-.about {
-    display: flex;
-    /* flex-wrap: wrap; */
+#aboutMeDescription {
+    font-size: 24px;
 }
-
-.about section {
-    margin: 5px;
-    /* background-size: cover; */
-    display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    /* align-items: flex-start; */
-}
-/* Article About Styles End */
-
 
 /* Article Work Styles Start */
 .work {
@@ -112,6 +89,8 @@ article {
 
 .project1 {
     margin: 5px;
+    height: 400px;
+    width: 1000px;
     background-image: url(../images/Envirodashboard.png);
     background-size: cover;
     display: flex;
@@ -121,9 +100,15 @@ article {
     
 }
 
+.project1 h3 a {
+    color:black;
+}
+
 .project2 {
     margin: 5px;
-    background-image: url(../images/laptopside.webp);
+    height: 400px;
+    width: 1000px;
+    background-image: url(../images/work-feelings.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -131,8 +116,14 @@ article {
     align-items: flex-start;
 }
 
+.project2 h3 a {
+    color:black;
+}
+
 .project3 {
     margin: 5px;
+    height: 300px;
+    width: 600px;
     background-image: url(../images/laptopside.webp);
     background-size: cover;
     display: flex;
@@ -143,6 +134,8 @@ article {
 
 .project4 {
     margin: 5px;
+    height: 300px;
+    width: 600px;
     background-image: url(../images/laptopside.webp);
     background-size: cover;
     display: flex;
@@ -153,6 +146,8 @@ article {
 
 .project5 {
     margin: 5px;
+    height: 300px;
+    width: 600px;
     background-image: url(../images/laptopside.webp);
     background-size: cover;
     display: flex;
@@ -162,11 +157,12 @@ article {
 }
 
 .resume {
-    display: flex;
     flex-wrap: wrap;  
 }
 
 .resume div {
+    height: 200px;
+    width: 400px;
     background-image: url(../images/handshake.jpg);
     background-size: cover;
     display: flex;
@@ -188,7 +184,7 @@ article {
 /* Footer Styles Start */
 
 footer {
-    padding: 20px 35px;
+    padding: 20px 35px 20px 10px;
     background-color: #b0c4de;
     display: flex;
     justify-content: space-between;
